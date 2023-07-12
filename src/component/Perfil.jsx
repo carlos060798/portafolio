@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap";
 
-function Perfil() {
+function PerfilDev() {
   return (
     <>
       <div className="bg-primary mt-5">
@@ -15,4 +15,4 @@ function Perfil() {
   );
 }
 
-export default Perfil;
+export default PerfilDev;

@@ -1,14 +1,14 @@
 import Footerbt from "../component/Footerbt";
-import Perfil from "../Component/Perfil";
 import Skills from "../Component/Skill";
 import Presentacion from "../component/Presentacion";
+import PerfilDev from "../Component/Perfil";
 
 
 function Home() {
     return ( 
         <>
         <Presentacion/>
-        <Perfil/>
+        <PerfilDev/>
         <Skills/>
         <Footerbt/>
         </>
