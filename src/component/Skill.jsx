@@ -44,7 +44,7 @@ function Skills() {
   </div>
   <div className="col">
     <Card>
-      <img src="/assets/mongo.svg" alt="html" style={{maxWidth: "150px", maxHeight: "150px"}} />
+      <img src="/assets/js.svg" alt="html" style={{maxWidth: "150px", maxHeight: "150px"}} />
     </Card>
   </div>
 </div>
