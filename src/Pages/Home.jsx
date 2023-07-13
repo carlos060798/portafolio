@@ -1,7 +1,9 @@
 import Footerbt from "../component/Footerbt";
-import Skills from "../Component/Skill";
 import Presentacion from "../component/Presentacion";
 import PerfilDev from "../Component/Perfil";
+import Mensage from "../component/Mensage";
+import GroupExample from "../Component/Skill";
+
 
 
 function Home() {
@@ -9,7 +11,8 @@ function Home() {
         <>
         <Presentacion/>
         <PerfilDev/>
-        <Skills/>
+        <GroupExample/>
+         <Mensage/>
         <Footerbt/>
         </>
      );

@@ -3,6 +3,7 @@ import Curse from "../Component/Curse";
 import Perfil from "../Component/Perfil";
 import Studies from "../Component/Stud";
 import Footerbt from "../component/Footerbt";
+import Mensage from "../component/Mensage";
 
 function About() {
     return ( <>
@@ -13,6 +14,7 @@ function About() {
 
     <Curse/>
     </Container>
+    <Mensage/>
     <Footerbt/>
     </> );
 }

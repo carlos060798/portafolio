@@ -1,55 +1,63 @@
-import {
-  faBootstrap,
-  faCss3Alt,
-  faGithub,
-  faHtml5,
-  faJs,
-  faNode,
-  faNpm,
-  faReact,
-} from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Col, Container,Row,Card } from "react-bootstrap";
+import { Container } from 'react-bootstrap';
+import Card from 'react-bootstrap/Card';
+import CardGroup from 'react-bootstrap/CardGroup';
 
-
-function Skills() {
+function GroupExample() {
   return (
-    <Container className="mt-5">
-      <h3 className="text-center fw-9">My Skills</h3>
-      <div className="row row-cols-1 row-cols-md-3 g-4">
-  <div className="col">
-    <Card>
-      <img src="/assets/html.svg" alt="html" style={{maxWidth: "150px", maxHeight: "150px"}} />
-    </Card>
-  </div>
-  <div className="col">
-    <Card>
-      <img src="/assets/css.svg" alt="html" style={{maxWidth: "150px", maxHeight: "150px"}} />
-    </Card>
-  </div>
-  <div className="col">
-    <Card>
-      <img src="/assets/js.svg" alt="html" style={{maxWidth: "150px", maxHeight: "150px"}} />
-    </Card>
-  </div>
-  <div className="col">
-    <Card>
-      <img src="/assets/reacjs.svg" alt="html" style={{maxWidth: "150px", maxHeight: "150px"}} />
-    </Card>
-  </div>
-  <div className="col">
-    <Card>
-      <img src="/assets/nodejs.svg" alt="html" style={{maxWidth: "150px", maxHeight: "150px"}} />
-    </Card>
-  </div>
-  <div className="col">
-    <Card>
-      <img src="/assets/js.svg" alt="html" style={{maxWidth: "150px", maxHeight: "150px"}} />
-    </Card>
-  </div>
-</div>
+    <Container className='my-5'>
+      <CardGroup className=''>
+        <Card className='text-center text-primary ' >
+          <Card.Body>
+            <img src="/assets/codigo.svg" alt="myAvatar" className='rounded-circle' style={{ width: '80px', height: '80px', margin: 'auto' }} />
+            <Card.Title className='fw-bold'>Lenguajes y Herramientas</Card.Title>
+            <Card.Text>
+              <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>Visual Studio Code</li>
+                <li>Postman</li>
+              </ol>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className='text-center text-primary '  style={{ marginLeft: '20px' }}>
+          <Card.Body>
+            <img src="/assets/Tols.svg" alt="tools" style={{ width: '80px', height: '80px', margin: 'auto' }} />
+            <Card.Title className='fw-bold'>Framework &amp; Librerias</Card.Title>
+            <Card.Text>
+              <ol>
+                <li>React</li>
+                <li>Bootstrap</li>
+                <li>React-Bootstrap</li>
+                <li>React-Router-Dom</li>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>Sequelize</li>
+                <li>PostgreSQL</li>
+                <li>Mongoose</li>
+              </ol>
+            </Card.Text>
+          </Card.Body>
+         
+        </Card>
+        <Card className='text-center text-primary '  style={{ marginLeft: '20px' }}>
+          <Card.Body>
+            <img src="/assets/DataBASE.svg" alt="database" style={{ width: '80px', height: '80px', margin: 'auto' }} />
+            <Card.Title className='fw-bold'>Bases de datos</Card.Title>
+            <Card.Text>
+              <ol>
+                <li>MongoDB</li>
+                <li>MySQL</li>
+              </ol>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </CardGroup>
     </Container>
   );
 }
 
-export default Skills;
+export default GroupExample;
