@@ -13,11 +13,10 @@ function Projectos() {
       {DataProjects.map((project) => (
         <Col key={project.id}>
           <Card>
-            <Card.Img variant="top" src="/assets/apiRick.jpg" />
             <Card.Body>
-              <Card.Title>{project.ProjectName}</Card.Title>
+              <Card.Title className='text-center'>{project.ProjectName}</Card.Title>
               <Card.Text>
-              <p>Proyecto de consumo de Rick and Morty Character Api construido con React js, Bostrapt y Sas</p>
+              <p>{project.description}</p>
 
               </Card.Text>
               <div className="d-flex justify-content-center">
