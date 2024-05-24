@@ -17,23 +17,23 @@
  */
 export const portafolioData = [
 	{
-		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
-		title: 'Restaurant',
-		skills: ['React', 'StyledComponents'],
+		imgSrc: '/img/task-manager.png',
+		title: 'Task Manager',
+		skills: [],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
+			'Un proyecto completo para la gestión de tareas que combina lo mejor de React, Bootstrap, Express, Node.js, MongoDB y autenticación con JWT. Con una interfaz dinámica y responsiva, seguridad de vanguardia y operaciones intuitivas, esta aplicación ofrece una experiencia de usuario sin igual para la organización eficiente de tareas.',
+		demoURL: 'https://www.youtube.com/watch?v=-XhSKeeLuJU',
+		repoURL: 'https://github.com/carlos060798/GESTORDETASK',
 		anim: 'fade-right',
 	},
 	{
-		imgSrc: 'https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/299377097/original/7eb7dcebe244fcf5ad75d92b0969fc116946bd57/create-professional-amd-responsive-wordpress-website.jpg',
-		title: 'E-commerce',
-		skills: ['JavaScript', 'Bootstrap'],
+		imgSrc: '/img/pacientes.png',
+		title: 'Gestion de pacientes de veterinaria',
+		skills: [],
 		descripcion:
-			' Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
+			' Este proyecto presenta una plataforma de gestión de pacientes que prioriza la seguridad y la privacidad. Utilizando autenticación basada en JSON Web Tokens (JWT) y encriptación de contraseñas, se garantiza un acceso seguro a la plataforma y se protege la información confidencial de los pacientes.',
+		demoURL: 'https://www.youtube.com/watch?v=1cmiT5fxnbc',
+		repoURL: 'https://github.com/carlos060798/Front-Appveterinarios/tree/main',
 		anim: 'fade-up',
 		averageBrightness: 0.1,
 	},
@@ -88,6 +88,8 @@ const skillIcons = {
 	StyledComponents: 'skill-icons:styledcomponents',
 	Bootstrap: 'skill-icons:bootstrap',
 	Tailwind: 'skill-icons:tailwindcss-dark',
+	Node: 'skill-icons:nodejs',
+
 };
 
 /**
